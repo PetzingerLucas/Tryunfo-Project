@@ -147,3 +147,12 @@ h1 { color: aliceblue;
   width: 270px;
   border-style: none;
 }
+
+select{
+  margin-left: 10px;
+}
+
+select option{
+  background-color: #023031;
+  color: aliceblue;
+}
