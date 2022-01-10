@@ -32,8 +32,8 @@ class App extends React.Component {
         cardDescription:
          `O Alistar Negro, por exemplo, foi 
          parte de uma promoção de pré-
-         venda digital realizada em 2009, o
-         que o tornou muito cobiçado até hoje,`,
+         venda digital o
+         que o tornou muito cobiçado até hoje.`,
         cardImage:
         'https://i.imgur.com/bGtLXgi.jpeg',
         cardName:
