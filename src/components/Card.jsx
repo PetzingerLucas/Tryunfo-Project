@@ -16,7 +16,7 @@ class Card extends React.Component {
           src={ cardImage }
           alt={ cardName }
         />
-        <p data-testid="description-card">{cardDescription}</p>
+        <p className='desc-input' data-testid="description-card">{cardDescription}</p>
         <p data-testid="attr1-card">
 
           {' '}

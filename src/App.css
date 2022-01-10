@@ -53,9 +53,9 @@ body {
   flex-direction: column;
   gap: 5px;
   height: 450px;
+  max-width: 300px;
   padding: 2rem 1rem 1rem;
   position: relative;
-  width: 300px;
 }
 
 img {
@@ -68,6 +68,8 @@ img {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  position: relative;
+  width: 10%;
 }
 
 .trunfo-text {
@@ -121,6 +123,7 @@ p:nth-of-type( 4 ) {
   position: absolute;
   right: 30px;
   z-index: 2;
+
 }
 
 .card-list button {
@@ -142,17 +145,25 @@ h1 { color: aliceblue;
   width: 100%;
 }
 
-.image-card{
+.image-card {
+  border-style: none;
   height: 240px;
   width: 270px;
-  border-style: none;
 }
 
-select{
+select {
   margin-left: 10px;
 }
 
-select option{
+select option {
   background-color: #023031;
   color: aliceblue;
+}
+
+.desc-input {
+  display: block;
+  margin-left: 10%;
+  overflow-wrap: break-word;
+  width: 80%;
+
 }
