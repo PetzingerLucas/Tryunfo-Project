@@ -142,3 +142,8 @@ h1 { color: aliceblue;
   width: 100%;
 }
 
+.image-card{
+  height: 240px;
+  width: 270px;
+  border-style: none;
+}
