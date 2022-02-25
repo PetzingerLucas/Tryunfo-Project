@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import imgTeste from './Teste.png';
+import imgTeste from '../image/Border.png';
 
 class Card extends React.Component {
   render() {
